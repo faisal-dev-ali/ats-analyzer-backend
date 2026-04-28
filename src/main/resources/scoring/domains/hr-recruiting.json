@@ -1,0 +1,65 @@
+{
+  "key": "hr-recruiting",
+  "label": "HR & Recruiting",
+  "fallback": false,
+  "roleKeywords": [
+    "recruiter",
+    "talent acquisition",
+    "hr generalist",
+    "people operations",
+    "hr manager",
+    "sourcer"
+  ],
+  "keywords": [
+    "candidate sourcing",
+    "screening",
+    "interview coordination",
+    "offer management",
+    "onboarding",
+    "employee relations",
+    "policy compliance"
+  ],
+  "tools": [
+    "linkedin recruiter",
+    "greenhouse",
+    "lever",
+    "workday",
+    "ats",
+    "bamboohr"
+  ],
+  "terminology": [
+    "time to fill",
+    "candidate pipeline",
+    "hiring manager",
+    "employee engagement",
+    "compliance",
+    "stakeholder alignment"
+  ],
+  "baselineExpectations": [
+    "communication",
+    "screening",
+    "coordination"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "candidate sourcing",
+      "interview scheduling",
+      "ats usage"
+    ],
+    "MID": [
+      "stakeholder management",
+      "offer management",
+      "pipeline reporting"
+    ],
+    "SENIOR": [
+      "process improvement",
+      "employer branding",
+      "workforce planning"
+    ],
+    "LEAD": [
+      "talent strategy",
+      "team mentoring",
+      "hiring planning"
+    ]
+  }
+}

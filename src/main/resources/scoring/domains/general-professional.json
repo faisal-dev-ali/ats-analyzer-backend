@@ -1,0 +1,67 @@
+{
+  "key": "general-professional",
+  "label": "General Professional",
+  "fallback": true,
+  "roleKeywords": [
+    "professional",
+    "specialist",
+    "coordinator",
+    "analyst",
+    "associate",
+    "executive",
+    "manager"
+  ],
+  "keywords": [
+    "operations",
+    "reporting",
+    "coordination",
+    "communication",
+    "documentation",
+    "process improvement",
+    "customer service",
+    "cross-functional",
+    "scheduling"
+  ],
+  "tools": [
+    "excel",
+    "powerpoint",
+    "word",
+    "google sheets",
+    "crm",
+    "erp"
+  ],
+  "terminology": [
+    "kpi",
+    "sla",
+    "workflow",
+    "planning",
+    "escalation",
+    "compliance"
+  ],
+  "baselineExpectations": [
+    "communication",
+    "reporting",
+    "process improvement"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "documentation",
+      "coordination"
+    ],
+    "MID": [
+      "stakeholder management",
+      "kpi",
+      "workflow management"
+    ],
+    "SENIOR": [
+      "governance",
+      "planning",
+      "cross-functional leadership"
+    ],
+    "LEAD": [
+      "operating model",
+      "team leadership",
+      "strategic planning"
+    ]
+  }
+}

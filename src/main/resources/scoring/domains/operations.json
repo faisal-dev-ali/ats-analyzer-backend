@@ -1,0 +1,70 @@
+{
+  "key": "operations",
+  "label": "Operations & Program Delivery",
+  "fallback": false,
+  "roleKeywords": [
+    "operations manager",
+    "operations analyst",
+    "project coordinator",
+    "program manager",
+    "delivery manager",
+    "project manager",
+    "supply chain"
+  ],
+  "keywords": [
+    "process improvement",
+    "resource planning",
+    "vendor management",
+    "capacity planning",
+    "governance",
+    "risk management",
+    "workflow optimization",
+    "program delivery"
+  ],
+  "tools": [
+    "jira",
+    "confluence",
+    "smartsheet",
+    "ms project",
+    "sap",
+    "excel",
+    "erp"
+  ],
+  "terminology": [
+    "kpi",
+    "okr",
+    "sla",
+    "cross-functional",
+    "roadmap",
+    "dependency management",
+    "change management"
+  ],
+  "baselineExpectations": [
+    "coordination",
+    "reporting",
+    "process improvement"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "documentation",
+      "scheduling",
+      "stakeholder communication"
+    ],
+    "MID": [
+      "risk management",
+      "resource planning",
+      "kpi reporting",
+      "roadmap management"
+    ],
+    "SENIOR": [
+      "governance",
+      "portfolio management",
+      "change leadership"
+    ],
+    "LEAD": [
+      "operating model design",
+      "executive steering",
+      "program leadership"
+    ]
+  }
+}

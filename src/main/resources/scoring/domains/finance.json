@@ -1,0 +1,68 @@
+{
+  "key": "finance",
+  "label": "Finance",
+  "fallback": false,
+  "roleKeywords": [
+    "financial analyst",
+    "accountant",
+    "finance manager",
+    "fp&a",
+    "accounts payable",
+    "accounts receivable",
+    "controller"
+  ],
+  "keywords": [
+    "budgeting",
+    "forecasting",
+    "variance analysis",
+    "reconciliation",
+    "financial reporting",
+    "general ledger",
+    "audit support"
+  ],
+  "tools": [
+    "excel",
+    "sap",
+    "oracle",
+    "erp",
+    "power bi",
+    "tableau",
+    "quickbooks"
+  ],
+  "terminology": [
+    "p&l",
+    "cash flow",
+    "balance sheet",
+    "month-end close",
+    "compliance",
+    "cost control",
+    "kpi"
+  ],
+  "baselineExpectations": [
+    "excel",
+    "financial reporting",
+    "reconciliation"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "journal entries",
+      "data accuracy",
+      "month-end support"
+    ],
+    "MID": [
+      "forecasting",
+      "variance analysis",
+      "budgeting"
+    ],
+    "SENIOR": [
+      "cash flow management",
+      "business partnering",
+      "financial controls"
+    ],
+    "LEAD": [
+      "fp&a leadership",
+      "planning cadence",
+      "finance strategy"
+    ]
+  }
+}

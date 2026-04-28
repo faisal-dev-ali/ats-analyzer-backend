@@ -1,0 +1,69 @@
+{
+  "key": "marketing",
+  "label": "Marketing",
+  "fallback": false,
+  "roleKeywords": [
+    "marketing specialist",
+    "digital marketing",
+    "content marketer",
+    "growth marketer",
+    "performance marketer",
+    "brand manager",
+    "marketing manager"
+  ],
+  "keywords": [
+    "seo",
+    "sem",
+    "campaign management",
+    "content strategy",
+    "lead nurturing",
+    "conversion optimization",
+    "email marketing",
+    "social media"
+  ],
+  "tools": [
+    "google analytics",
+    "google ads",
+    "meta ads",
+    "hubspot",
+    "marketo",
+    "canva",
+    "wordpress"
+  ],
+  "terminology": [
+    "cac",
+    "ctr",
+    "roas",
+    "brand awareness",
+    "funnel",
+    "attribution",
+    "engagement"
+  ],
+  "baselineExpectations": [
+    "campaign management",
+    "analytics",
+    "content"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "social media",
+      "email marketing",
+      "basic seo"
+    ],
+    "MID": [
+      "conversion optimization",
+      "lead nurturing",
+      "paid campaigns"
+    ],
+    "SENIOR": [
+      "attribution",
+      "brand strategy",
+      "budget ownership"
+    ],
+    "LEAD": [
+      "go-to-market strategy",
+      "team leadership",
+      "channel planning"
+    ]
+  }
+}

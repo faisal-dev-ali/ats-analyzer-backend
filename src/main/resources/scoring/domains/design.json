@@ -1,0 +1,63 @@
+{
+  "key": "design",
+  "label": "Design",
+  "fallback": false,
+  "roleKeywords": [
+    "ux designer",
+    "ui designer",
+    "product designer",
+    "graphic designer",
+    "visual designer",
+    "designer"
+  ],
+  "keywords": [
+    "wireframes",
+    "prototyping",
+    "user research",
+    "interaction design",
+    "design systems",
+    "usability testing"
+  ],
+  "tools": [
+    "figma",
+    "sketch",
+    "adobe xd",
+    "photoshop",
+    "illustrator",
+    "invision"
+  ],
+  "terminology": [
+    "accessibility",
+    "information architecture",
+    "journey mapping",
+    "design critique",
+    "handoff"
+  ],
+  "baselineExpectations": [
+    "prototyping",
+    "visual communication",
+    "design tools"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "wireframes",
+      "user flows",
+      "collaboration"
+    ],
+    "MID": [
+      "user research",
+      "usability testing",
+      "design systems"
+    ],
+    "SENIOR": [
+      "strategy",
+      "stakeholder facilitation",
+      "mentoring"
+    ],
+    "LEAD": [
+      "design leadership",
+      "vision setting",
+      "cross-functional influence"
+    ]
+  }
+}

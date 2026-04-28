@@ -1,0 +1,82 @@
+{
+  "key": "software-engineering",
+  "label": "Software Engineering",
+  "fallback": false,
+  "roleKeywords": [
+    "software engineer",
+    "backend engineer",
+    "backend developer",
+    "full stack developer",
+    "frontend developer",
+    "java developer",
+    "developer",
+    "engineering"
+  ],
+  "keywords": [
+    "api",
+    "rest",
+    "microservices",
+    "scalability",
+    "performance",
+    "architecture",
+    "unit testing",
+    "integration testing",
+    "system design"
+  ],
+  "tools": [
+    "git",
+    "sql",
+    "docker",
+    "ci/cd",
+    "aws",
+    "gcp",
+    "azure",
+    "kubernetes",
+    "spring boot",
+    "react",
+    "node.js",
+    "python",
+    "java",
+    "junit",
+    "github actions"
+  ],
+  "terminology": [
+    "distributed systems",
+    "observability",
+    "latency",
+    "deployment",
+    "automation",
+    "code review",
+    "agile"
+  ],
+  "baselineExpectations": [
+    "git",
+    "rest api",
+    "sql"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "debugging",
+      "version control",
+      "api development"
+    ],
+    "MID": [
+      "docker",
+      "ci/cd",
+      "cloud",
+      "testing",
+      "scalability"
+    ],
+    "SENIOR": [
+      "architecture",
+      "mentoring",
+      "distributed systems",
+      "performance tuning"
+    ],
+    "LEAD": [
+      "system design",
+      "technical leadership",
+      "reliability strategy"
+    ]
+  }
+}

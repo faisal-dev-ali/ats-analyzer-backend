@@ -1,0 +1,67 @@
+{
+  "key": "customer-support",
+  "label": "Customer Support",
+  "fallback": false,
+  "roleKeywords": [
+    "customer support",
+    "customer service",
+    "support associate",
+    "support specialist",
+    "call center",
+    "technical support",
+    "help desk"
+  ],
+  "keywords": [
+    "ticket resolution",
+    "customer satisfaction",
+    "escalation handling",
+    "issue diagnosis",
+    "first call resolution",
+    "knowledge base",
+    "troubleshooting"
+  ],
+  "tools": [
+    "zendesk",
+    "freshdesk",
+    "salesforce service cloud",
+    "intercom",
+    "jira service management"
+  ],
+  "terminology": [
+    "csat",
+    "sla",
+    "aht",
+    "nps",
+    "ticket backlog",
+    "escalation",
+    "queue management"
+  ],
+  "baselineExpectations": [
+    "customer communication",
+    "ticketing system",
+    "issue resolution"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "knowledge base",
+      "ticket handling",
+      "escalation awareness"
+    ],
+    "MID": [
+      "csat",
+      "sla",
+      "troubleshooting",
+      "case ownership"
+    ],
+    "SENIOR": [
+      "queue management",
+      "root cause analysis",
+      "process coaching"
+    ],
+    "LEAD": [
+      "support operations",
+      "service quality leadership",
+      "team mentoring"
+    ]
+  }
+}

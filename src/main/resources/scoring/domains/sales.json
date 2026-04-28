@@ -1,0 +1,68 @@
+{
+  "key": "sales",
+  "label": "Sales",
+  "fallback": false,
+  "roleKeywords": [
+    "sales executive",
+    "account executive",
+    "business development",
+    "sales manager",
+    "inside sales",
+    "account manager",
+    "sales representative"
+  ],
+  "keywords": [
+    "quota",
+    "pipeline",
+    "prospecting",
+    "upsell",
+    "cross-sell",
+    "forecasting",
+    "lead generation",
+    "negotiation",
+    "conversion"
+  ],
+  "tools": [
+    "salesforce",
+    "hubspot",
+    "crm",
+    "outreach",
+    "zoho crm"
+  ],
+  "terminology": [
+    "revenue",
+    "win rate",
+    "deal cycle",
+    "territory",
+    "renewal",
+    "customer acquisition"
+  ],
+  "baselineExpectations": [
+    "crm",
+    "communication",
+    "lead generation"
+  ],
+  "seniorityExpectations": {
+    "ENTRY": [
+      "prospecting",
+      "outreach",
+      "pipeline hygiene"
+    ],
+    "MID": [
+      "forecasting",
+      "quota attainment",
+      "negotiation",
+      "deal management"
+    ],
+    "SENIOR": [
+      "territory planning",
+      "revenue growth",
+      "stakeholder selling"
+    ],
+    "LEAD": [
+      "sales leadership",
+      "team coaching",
+      "strategic account planning"
+    ]
+  }
+}
