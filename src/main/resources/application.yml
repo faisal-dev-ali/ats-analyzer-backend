@@ -1,25 +1,31 @@
 spring:
   application:
     name: atsanalyzer
+
   datasource:
-    url: ${ATS_DB_URL:jdbc:mysql://localhost:3306/atsanalyzer?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
-    username: ${ATS_DB_USERNAME:faisal}
-    password: ${ATS_DB_PASSWORD:Faisal@@549}
+    url: ${ATS_DB_URL}
+    username: ${ATS_DB_USERNAME}
+    password: ${ATS_DB_PASSWORD}
     driver-class-name: com.mysql.cj.jdbc.Driver
+
   jpa:
-    database-platform: ${ATS_DB_DIALECT:org.hibernate.dialect.MySQLDialect}
+    database-platform: org.hibernate.dialect.MySQLDialect
     open-in-view: false
-    show-sql: ${ATS_SHOW_SQL:false}
+    show-sql: false
+
     hibernate:
       ddl-auto: update
+
     properties:
       hibernate:
         format_sql: true
+
   servlet:
     multipart:
       enabled: true
       max-file-size: 5MB
       max-request-size: 5MB
+
   task:
     execution:
       pool:
@@ -29,111 +35,26 @@ spring:
       thread-name-prefix: resume-worker-
 
 server:
-  port: ${PORT:8787}
+  port: ${PORT:8080}
+
   servlet:
     context-path: /atsanalyzer
 
 app:
   storage:
-    upload-dir: ${APP_UPLOAD_DIR:uploads/resumes}
+    upload-dir: uploads/resumes
+
     max-file-size-bytes: 5242880
+
     allowed-extensions:
       - pdf
       - docx
+
     allowed-content-types:
       - application/pdf
       - application/vnd.openxmlformats-officedocument.wordprocessingml.document
 
-ats:
-  scoring:
-    weights:
-      ats-compatibility: 0.14
-      impact-metrics: 0.16
-      readability: 0.12
-      action-verbs: 0.10
-      content-clarity: 0.10
-      resume-length: 0.08
-      structure-quality: 0.10
-      domain-relevance: 0.20
-    standard-sections:
-      contact:
-        - contact
-        - email
-        - phone
-        - linkedin
-      summary:
-        - summary
-        - profile
-        - professional summary
-        - objective
-      experience:
-        - experience
-        - work experience
-        - employment
-        - professional experience
-      skills:
-        - skills
-        - technical skills
-        - competencies
-        - core competencies
-      education:
-        - education
-        - academic background
-        - qualifications
-      projects:
-        - projects
-        - project experience
-        - key projects
-    action-verbs:
-      - built
-      - created
-      - delivered
-      - designed
-      - developed
-      - drove
-      - enhanced
-      - executed
-      - implemented
-      - improved
-      - launched
-      - led
-      - managed
-      - optimized
-      - reduced
-      - scaled
-      - streamlined
-      - automated
-      - increased
-      - analyzed
-    weak-action-verbs:
-      - assisted
-      - helped
-      - worked on
-      - responsible for
-      - involved in
-      - participated in
-      - supported
-      - handled
-      - tasked with
-    vague-phrases:
-      - hard working
-      - hardworking
-      - team player
-      - go getter
-      - detail oriented
-      - results driven
-      - various responsibilities
-      - multiple tasks
-      - excellent communication skills
-      - good communication skills
-      - successfully completed
-      - responsible for
-      - worked on
-      - involved in
-
 logging:
   level:
     root: INFO
-    com.faisal.dev.atsanalyzer: DEBUG
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+    com.faisal.dev.atsanalyzer: INFO
