@@ -44,9 +44,6 @@ spring:
 server:
   port: ${PORT:8080}
 
-  servlet:
-    context-path: /atsanalyzer
-
 app:
   storage:
     upload-dir: uploads/resumes
