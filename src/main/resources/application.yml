@@ -2,12 +2,18 @@ spring:
   application:
     name: atsanalyzer
 
-  spring:
-    datasource:
-      url: ${ATS_DB_URL}
-      username: ${ATS_DB_USERNAME}
-      password: ${ATS_DB_PASSWORD}
-      driver-class-name: com.mysql.cj.jdbc.Driver
+  datasource:
+    url: ${ATS_DB_URL}
+    username: ${ATS_DB_USERNAME}
+    password: ${ATS_DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+    hikari:
+      initializationFailTimeout: 60000
+
+  sql:
+    init:
+      mode: never
 
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
